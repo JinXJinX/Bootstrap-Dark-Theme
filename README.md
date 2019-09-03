@@ -2,7 +2,7 @@
 
 inspired by material design dark theme guide and bootswatch
 
-## [demo](https://JinXJinX.github.io/Bootstrap-Dark-Theme)
+## [demo](https://jinxjinx.github.io/Bootstrap-Dark-Theme/dark/index.html)
 
 ---
 
