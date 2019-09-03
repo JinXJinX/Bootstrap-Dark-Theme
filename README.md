@@ -5,6 +5,7 @@ inspired by natural design dark theme guide and bootswatch
 ## [demo](https://JinXJinX.github.io/Bootstrap-Dark-Theme)
 
 ---
+
 ## Usage
 
 #### Generate Theme min css file
@@ -17,6 +18,7 @@ inspired by natural design dark theme guide and bootswatch
 2. visit http://127.0.0.1:8080/dark/
 
 ## Screenshots
+
 ---
 
 ![screenshot1](/docs/img/screenshot1.png)
@@ -26,7 +28,9 @@ inspired by natural design dark theme guide and bootswatch
 
 
 ---
+
 ## Customization
+
 Each theme consists of two LESS files.
 
 `variable.less`: which is included by default in Bootstrap, allows you to customize these settings.
@@ -34,6 +38,7 @@ Each theme consists of two LESS files.
 `skin.less`: introduces more extensive structural changes.
 
 ---
+
 ## Reference
 
 #### Bootswatch 3.2.0
