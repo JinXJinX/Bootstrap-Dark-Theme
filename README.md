@@ -1,6 +1,6 @@
 # Bootstrap-Dark-Theme
 
-inspired by natural design dark theme guide and bootswatch
+inspired by material design dark theme guide and bootswatch
 
 ## [demo](https://JinXJinX.github.io/Bootstrap-Dark-Theme)
 
