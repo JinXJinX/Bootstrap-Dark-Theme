@@ -39,6 +39,14 @@ Each theme consists of two LESS files.
 
 ---
 
+## TODO
+
+[ ] customize selection input/ checkbox
+
+[ ] add css transition delay to nav bar hover event
+
+---
+
 ## Reference
 
 #### Bootswatch 3.2.0
