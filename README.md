@@ -15,7 +15,7 @@ inspired by material design dark theme guide and bootswatch
 
 #### Run Local Sample Website
 1. run `http-server`
-2. visit http://127.0.0.1:8080/dark/
+2. visit `http://127.0.0.1:8080/dark/`
 
 ## Screenshots
 
