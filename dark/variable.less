@@ -12,6 +12,7 @@
 @gray:                   #8B8B8B;
 @gray-light:             #CCCCCC; // lighten(#000, 46.7%); // #777
 @gray-lighter:           #E5E5E5; //lighten(#000, 93.5%); // #eee
+@white:                  #fff;
 
 @brand-primary:         @primary-200;
 @brand-success:         #51905d; //#228F3B;
@@ -90,7 +91,7 @@
 @code-color:                  @text-high-emphasis;
 @code-bg:                     @base-1dp;
 
-@kbd-color:                   #fff;
+@kbd-color:                   @white;
 @kbd-bg:                      #333;
 
 @pre-bg:                      @base-1dp;
@@ -143,7 +144,7 @@
 
 @state-success-text:             @brand-success;
 @state-success-bg:               #243c29;//#7ECA8F;
-@state-success-border:           darken(@state-success-bg, 2%);
+@state-success-border:           lighten(@state-success-text, 5%);
 
 @state-info-text:                @brand-info;
 @state-info-bg:                  @base-8dp; //#74C7D4;
@@ -225,19 +226,19 @@
 @btn-primary-bg:                 #094e76; //@brand-primary;
 @btn-primary-border:             darken(@btn-primary-bg, 5%);
 
-@btn-success-color:              #fff; //@text-high-emphasis;
+@btn-success-color:              @white; //@text-high-emphasis;
 @btn-success-bg:                 @brand-success;
 @btn-success-border:             darken(@btn-success-bg, 5%);
 
-@btn-info-color:                 #fff; //@text-high-emphasis;
+@btn-info-color:                 @white; //@text-high-emphasis;
 @btn-info-bg:                    @brand-info;
 @btn-info-border:                darken(@btn-info-bg, 5%);
 
-@btn-warning-color:              #fff; //@text-high-emphasis;
+@btn-warning-color:              @white; //@text-high-emphasis;
 @btn-warning-bg:                 @brand-warning;
 @btn-warning-border:             darken(@btn-warning-bg, 5%);
 
-@btn-danger-color:               #fff;
+@btn-danger-color:               @white;
 @btn-danger-bg:                  @brand-danger;
 @btn-danger-border:              darken(@btn-danger-bg, 5%);
 
@@ -311,7 +312,7 @@
 @nav-disabled-link-color:                   @gray-light;
 @nav-disabled-link-hover-color:             @gray-light;
 
-@nav-open-link-hover-color:                 #fff;
+@nav-open-link-hover-color:                 @white;
 
 //== Tabs
 @nav-tabs-border-color:                     @gray;
@@ -355,8 +356,8 @@
 @pagination-bg:                        transparent;
 @pagination-border:                    transparent;
 
-@pagination-hover-color:               @text-medium-emphasis;
-@pagination-hover-bg:                  @base-1dp;
+@pagination-hover-color:               @text-high-emphasis;
+@pagination-hover-bg:                  @base-4dp;
 @pagination-hover-border:              transparent;
 
 @pagination-active-color:              @text-high-emphasis;
@@ -451,27 +452,27 @@
 @panel-inner-border:          @gray-dark;
 @panel-footer-bg:             @base-1dp;
 
-@panel-default-text:          @text-medium-emphasis;
+@panel-default-text:          @text-high-emphasis;
 @panel-default-border:        transparent;
 @panel-default-heading-bg:    @base-1dp;
 
-@panel-primary-text:          @text-medium-emphasis;
+@panel-primary-text:          @text-high-emphasis;
 @panel-primary-border:        transparent; //@gray;
 @panel-primary-heading-bg:    @primary-800;
 
-@panel-success-text:          @text-medium-emphasis; //@state-success-text;
+@panel-success-text:          @text-high-emphasis; //@state-success-text;
 @panel-success-border:        transparent;
 @panel-success-heading-bg:    @state-success-bg;
 
-@panel-info-text:             @text-medium-emphasis; //@state-info-text;
+@panel-info-text:             @text-high-emphasis; //@state-info-text;
 @panel-info-border:           transparent;
 @panel-info-heading-bg:       @state-info-bg;
 
-@panel-warning-text:          @text-medium-emphasis; //@state-warning-text;
+@panel-warning-text:          @text-high-emphasis; //@state-warning-text;
 @panel-warning-border:        transparent;
 @panel-warning-heading-bg:    @state-warning-bg;
 
-@panel-danger-text:           @text-medium-emphasis; //@state-danger-text;
+@panel-danger-text:           @text-high-emphasis; //@state-danger-text;
 @panel-danger-border:         transparent;
 @panel-danger-heading-bg:     @state-danger-bg;
 
@@ -587,8 +588,8 @@
 @carousel-control-opacity:                    .7;
 @carousel-control-font-size:                  20px;
 
-@carousel-indicator-active-bg:                #fff;
-@carousel-indicator-border-color:             #fff;
+@carousel-indicator-active-bg:                @white;
+@carousel-indicator-border-color:             @white;
 
 @carousel-caption-color:                      @text-high-emphasis;
 
@@ -602,11 +603,11 @@
 @alert-link-font-weight:      bold;
 
 @alert-success-bg:            @state-success-bg;
-@alert-success-text:          @text-medium-emphasis;
+@alert-success-text:          @text-high-emphasis;
 @alert-success-border:        @state-success-border;
 
 @alert-info-bg:               @state-info-bg;
-@alert-info-text:             @text-medium-emphasis;
+@alert-info-text:             @text-high-emphasis;
 @alert-info-border:           @state-info-border;
 
 @alert-warning-bg:            @state-warning-bg;
@@ -636,9 +637,9 @@
 @label-danger-bg:             @brand-danger-bg;
 
 //** Default label text color
-@label-color:                 #fff;
+@label-color:                 @white;
 //** Default text color of a linked label
-@label-link-hover-color:      #fff;
+@label-link-hover-color:      @white;
 
 
 //== Progress bars
@@ -648,7 +649,7 @@
 //** Background color of the whole progress component
 @progress-bg:                 @base-6dp;
 //** Progress bar text color
-@progress-bar-color:          #fff;
+@progress-bar-color:          @white;
 
 //** Default progress bar color
 @progress-bar-bg:             lighten(@brand-primary, 6%);
