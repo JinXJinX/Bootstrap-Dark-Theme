@@ -14,10 +14,15 @@
 @gray-lighter:           #E5E5E5; //lighten(#000, 93.5%); // #eee
 
 @brand-primary:         @primary-200;
-@brand-success:         #446d4c; //#228F3B;
-@brand-info:            #557c82; //#148A9D;
-@brand-warning:         #8a701d; //#9E7804;
+@brand-success:         #51905d; //#228F3B;
+@brand-info:            #6d9ba2; //#148A9D;
+@brand-warning:         #bf6b01; //#9E7804;
 @brand-danger:          #DF4554;
+
+@brand-success-bg:         #3d824b; //#51905d; //#228F3B;
+@brand-info-bg:            #517277; //#6d9ba2; //#148A9D;
+@brand-warning-bg:         #af6200; //#bf6b01; //#9E7804;
+@brand-danger-bg:          #d63242; //#DF4554;
 
 @primary-900:           #042234;
 @primary-800:           #073855;
@@ -44,7 +49,7 @@
 
 @text-high-emphasis:      #E0E0E0;
 @text-medium-emphasis:    #A0A0A0;
-@text-disabled-emphasis:  #6C6C6C;
+@text-disabled-emphasis:  #808080;
 
 
 
@@ -197,7 +202,7 @@
 //** Placeholder text color
 @input-color-placeholder:        @gray-light;
 
-@legend-color:                   @primary-600;
+@legend-color:                   @primary-500;
 @legend-border-color:            @primary-700;
 
 //** Background color for textual input addons
@@ -220,7 +225,7 @@
 @btn-primary-bg:                 #094e76; //@brand-primary;
 @btn-primary-border:             darken(@btn-primary-bg, 5%);
 
-@btn-success-color:              @text-high-emphasis;
+@btn-success-color:              #fff; //@text-high-emphasis;
 @btn-success-bg:                 @brand-success;
 @btn-success-border:             darken(@btn-success-bg, 5%);
 
@@ -622,13 +627,13 @@
 //** Primary label background color
 @label-primary-bg:            @primary-700;
 //** Success label background color
-@label-success-bg:            @brand-success;
+@label-success-bg:            @brand-success-bg;
 //** Info label background color
-@label-info-bg:               @brand-info;
+@label-info-bg:               @brand-info-bg;
 //** Warning label background color
-@label-warning-bg:            @brand-warning;
+@label-warning-bg:            @brand-warning-bg;
 //** Danger label background color
-@label-danger-bg:             @brand-danger;
+@label-danger-bg:             @brand-danger-bg;
 
 //** Default label text color
 @label-color:                 #fff;
