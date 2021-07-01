@@ -233,8 +233,8 @@ input[type="radio"]:checked:after {
   &[readonly],
   fieldset[disabled] & {
     color: @text-disabled-emphasis;
-    background-color: @base-8dp;
-    border-color: @base-8dp;
+    background-color: @gray-dark;
+    border-color: @gray-dark;
   }
 }
 
@@ -367,4 +367,15 @@ input[type="radio"]:checked:after {
   &:focus {
     .opacity(.8);
   }
+}
+
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus,
+select:focus-visible {
+    outline: none;
 }

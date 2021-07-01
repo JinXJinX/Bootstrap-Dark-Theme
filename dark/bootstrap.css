@@ -6108,9 +6108,9 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #2C2C2C;
+  background-color: #272727;
+  border: 1px solid #2c2c2c;
   border: 1px solid #313131;
-  border: 1px solid #363636;
   border-radius: 4px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -6124,7 +6124,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #2F2F2F;
+  background-color: #2C2C2C;
 }
 .modal-backdrop.fade {
   opacity: 0;
@@ -7507,6 +7507,10 @@ fieldset[disabled] .btn-danger.active {
   background-color: #e35b68 !important;
   color: #ffffff !important;
 }
+input[type="checkbox"],
+input[type="radio"] {
+  position: relative;
+}
 input[type="checkbox"]:after {
   position: absolute;
   display: block;
@@ -7557,8 +7561,8 @@ input[type="radio"]:checked:after {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   color: #808080;
-  background-color: #2F2F2F;
-  border-color: #2F2F2F;
+  background-color: #454545;
+  border-color: #454545;
 }
 .input-group-addon {
   color: #A0A0A0;
@@ -7738,4 +7742,14 @@ fieldset[disabled] .form-control {
 .alert .close:focus {
   opacity: 0.8;
   filter: alpha(opacity=80);
+}
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus,
+select:focus-visible {
+  outline: none;
 }
